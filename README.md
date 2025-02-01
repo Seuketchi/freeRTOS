@@ -125,14 +125,6 @@ The implementation follows these key steps:
 2. Open the code in Arduino IDE.
 3. Install the FreeRTOS library via the Arduino Library Manager.
 4. Upload the code to your Arduino Uno.
-5. Observe the LED blinking at defined intervals.
-
----
-
-## **Future Improvements**
-- Implement task synchronization using semaphores.
-- Introduce message queues for inter-task communication.
-- Explore real-time sensor integration with FreeRTOS.
 
 ---
 
