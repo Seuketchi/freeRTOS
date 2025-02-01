@@ -91,8 +91,7 @@ The implementation follows these key steps:
    - Included `<Arduino_FreeRTOS.h>` in the program.
 
 2. **Define Task Functions**  
-   - Created multiple task functions (`TaskBlink1`, `TaskBlink2`, etc.).
-   - Each task toggles an LED with different delays.
+   - Created multiple task functions (`Task1`, `Task2`, etc.).
 
 3. **Create Tasks in `setup()`**  
    - Used `xTaskCreate()` to initialize tasks with priorities.
